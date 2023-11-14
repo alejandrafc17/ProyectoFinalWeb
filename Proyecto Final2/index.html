@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <title>Bootstrap demo</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-warning">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">AFC STORE TECNOLOGY</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarScroll">
+                    <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="src/pages/pcs.html">PCs</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Proyectos
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="https://alejandrafc17.github.io">Hoja de vida</a></li>
+                                
+                              </ul>
+                        </li>
+                        
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="Buscar" placeholder="Buscar" aria-label="Buscar">
+                        <button class="btn btn-outline-success" type="submit">Buscar</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container py-4">
+        <div class="p-lg-5 bg-body-tertiary rounded-3">
+            <div class="container py-5">
+                <h1 class="display-6 fw-bold mb-3">BIENVENIDO A NUESTRO SOPORTE EN LÍNEA</h1>
+                <p class="col-md-8 fs-4">En esta página encontrarás información sobre los servicios que ofrecemos,
+                    así como también podrás contactarnos para resolver cualquier duda que tengas.</p>
+    </div>
+    <div class="container py-4">
+        <h2>Listado de Computadores Disponibles</h2>
+        <div class="row" id="PCs-container">
+            <!-- Aquí se mostrarán las tarjetas de libros -->
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="src/js/index.js"></script>
+</body>
+</html>
